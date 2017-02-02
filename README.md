@@ -8,5 +8,5 @@ Interface to print monthly letters with working hours, based on Google calendar.
 - Admin configures application with config file
 - Users create two calendars in Google
  - One for duty-roster
- - One for workin hours
+ - One for working hours
 - Users connect with application to Google and print their monthly working hours sheets
