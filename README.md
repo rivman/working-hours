@@ -8,6 +8,15 @@ Interface to print monthly sheets with working hours, based on Google Calendar.
  - One for working hours (on the go with any calendar application)
 - User connects with this interface to Google and could print monthly sheets with working hours
 
+### Calendar rules
+
+- Duty-roster calender has name "Dienstplan"
+  - Enter your regular times you have to work - be smart and use recurring events
+  - Possible allday events: Arbeitsfrei
+- Working hours calendar has name "Arbeitszeiten"
+  - Enter day per day your working time - one event per day
+  - Possible allday events: Urlaub, Betriebsfrei, Krankheit, Gleitzeit
+
 ### Requirements
 
 - User: Google account
