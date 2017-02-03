@@ -17,6 +17,8 @@ Interface to print monthly sheets with working hours, based on Google Calendar.
 ### Development
 
 - Run `npm install` to install dependencies
+- Create project in the [Firebase Console](https://console.firebase.google.com/)
+- Create project in the [Google Developers Console](https://console.developers.google.com/) with Google Calendar API and oAuth2.0 client
 - Update *src/config.example.json* and save as *src/config.json*
 - Run `npm run dev` to start development server at localhost:8080
   - Code will be checked and fixed as far as possible according [Standard JavaScript](http://standardjs.com/) before
