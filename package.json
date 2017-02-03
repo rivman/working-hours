@@ -1,6 +1,6 @@
 {
   "name": "working-hours",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "repository": "https://github.com/scriptPilot/working-hours.git",
   "devDependencies": {
     "del": "^2.2.2",
