@@ -37,5 +37,5 @@ Interface to print monthly sheets with working hours, based on Google Calendar.
   - `npm run patch` after bugfixes and improvements
   - `npm run minor` after adding new functionality
   - `npm run major` after breaking backward-capability
-- Run `npm run deploy` to push latest build to [Firebase Hosting](https://firebase.google.com/docs/hosting/)
+- Run `npm run deploy` to push latest build from *dist* folder to [Firebase Hosting](https://firebase.google.com/docs/hosting/)
 - Run `npm run backup` to save Firebase database to *database-backup.json* file
