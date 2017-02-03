@@ -10,6 +10,7 @@ var replace = require('gulp-replace')
 var streamify = require('gulp-streamify')
 var uglify = require('gulp-uglify')
 var run = require('run-sequence')
+var pkg = require('./package.json')
 
 // Start development server
 gulp.task('dev', function () {
@@ -82,6 +83,7 @@ gulp.task('html', function (cb) {
   gulp.src('./src/index.html')
     .pipe(replace(/<script(.+)><\/script>/g, ''))
     .pipe(replace(/<link(.+)rel="stylesheet"(.+)\/>/g, ''))
+    .pipe(replace('{version}', pkg.version))
     .pipe(replace('</head>', '<link rel="stylesheet" href="css/vendor.min.css" /><link rel="stylesheet" href="css/app.min.css" /></head>'))
     .pipe(replace('</body>', '<script src="js/vendor.min.js"></script><script src="js/app.min.js"></script></body>'))
     .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))

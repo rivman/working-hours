@@ -113,3 +113,20 @@ body {
 .btn:focus {
   outline: none;
 }
+#github {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+#github a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+#github a:hover {
+  color: #1C1C1C;
+  text-decoration: underline;
+}
+#github i {
+  font-size: 16px;
+}
