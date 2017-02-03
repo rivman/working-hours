@@ -1,5 +1,5 @@
 # Working Hours
-Interface to print monthly sheets with working hours, based on Google Calendar.
+Interface to print monthly sheets with working hours, based on Google Calendar and Firebase.
 
 ### How it works
 
