@@ -17,7 +17,7 @@ Interface to print monthly sheets with working hours, based on Google Calendar.
   - Allowed allday events: *Arbeitsfrei*
 - Working hours calendar has name "Arbeitszeiten"
   - Enter day per day your working time - one event per day
-  - Allowed allday events:* Urlaub*, *Betriebsfrei*, *Krankheit*, *Gleitzeit*
+  - Allowed allday events: *Urlaub*, *Betriebsfrei*, *Krankheit*, *Gleitzeit*
 
 ### Requirements
 
