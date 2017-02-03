@@ -7,7 +7,7 @@ Interface to print monthly sheets with working hours, based on Google Calendar.
  - One for duty-roster (fast with recurring events)
  - One for working hours (on the go with any calendar application)
 - User connects with this interface to Google and could print monthly sheets with working hours
-- Your working times are checked against the planning
+- Working times are checked against the planning
 - Flexi-time is cummulated month by month
 
 ### Calendar rules
