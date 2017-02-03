@@ -1,3 +1,5 @@
+/* Executed from one level above, so all links are relative from one level above - with exception of require() */
+
 // Import packages
 var isThere = require('is-there')
 var deleteFiles = require('delete')
