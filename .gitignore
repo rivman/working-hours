@@ -1,0 +1,6 @@
+node_modules/
+.firebaserc
+*.log
+config.json
+database-backup.json
+firebase.json
