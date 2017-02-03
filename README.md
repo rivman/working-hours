@@ -7,8 +7,8 @@
 ### How it works
 
 - User maintains two calendars in [Google Calendar](https://calendar.google.com/)
- - One for duty-roster (fast with recurring events)
- - One for working hours (on the go with any calendar application)
+ - One for duty-roster (fast with recurring events) - name: *Dienstplan*
+ - One for working hours (on the go with any calendar application) - name *Arbeitszeiten*
 - User connects with this interface to Google and could print monthly sheets with working hours
 - Working times are checked against the planning
 - Flexi-time is cummulated month by month
