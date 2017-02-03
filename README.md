@@ -8,6 +8,12 @@ Interface to print monthly sheets with working hours, based on Google Calendar.
  - One for working hours (on the go with any calendar application)
 - User connects with this interface to Google and could print monthly sheets with working hours
 
+### Requirements
+
+- Admin: Google and Firebase account
+- User: Google account
+- Developer: Knowledge in [Node.js and npm](https://docs.npmjs.com/getting-started/what-is-npm), [Bootstrap](http://getbootstrap.com/), [Firebase](https://firebase.google.com/)
+
 ### Development
 
 - Run `npm install` to install dependencies
