@@ -1,3 +1,5 @@
+/* Executed from one level above, so all links are relative from one level above - with exception of require() */
+
 // Import config
 var cfg = require('../src/config.json')
 
