@@ -591,6 +591,9 @@ $.getJSON('config.json', function (json) {
   initFirebase(function () {
     if (firebase.auth().currentUser === null) {
       $('#init').fadeIn()
+      setTimeout(function () {
+        $('#github').fadeIn()
+      }, 2000)
     } else {
       $('#init-button').hide()
       if (!localStorage.plan) {
@@ -604,6 +607,9 @@ $.getJSON('config.json', function (json) {
         updateView(true)
         $('#view').fadeIn()
       }
+      setTimeout(function () {
+        $('#github').fadeIn()
+      }, 2000)
     }
   })
 })
