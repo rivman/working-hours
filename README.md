@@ -31,7 +31,7 @@
 ### Development
 
 - Run `npm install` to install dependencies
-- Create project in the [Firebase Console](https://console.firebase.google.com/)
+- Create project in the [Firebase Console](https://console.firebase.google.com/) and apply rules from *database-rules.json* file
 - Create project in the [Google Developers Console](https://console.developers.google.com/) with Google Calendar API and OAuth2.0 client
 - Update *src/config.example.json* and save as *src/config.json*
 - Run `npm run dev` to start development server at localhost:8080
