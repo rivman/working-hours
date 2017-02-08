@@ -1,6 +1,6 @@
 # Working Hours
 
-:boom: **Interface to print monthly sheets with working hours, based on Google Calendar and Firebase.**
+**Interface to print monthly sheets with working hours, based on Google Calendar and Firebase.**
 
 > [See and use our installed version, hosted on Firebase](https://working-hours.scriptpilot.de/)
 
